@@ -511,6 +511,49 @@ button {
   transition-duration: 250ms;
 }
 
+.form-position {
+  margin-left: 80px;
+}
+.form-table input {
+  padding: 8px 212px 8px 16px;
+  /* width: 264px;
+  height: 40px; */
+  /* border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px; */
+}
+.form-heading {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.form-search {
+  /* width: 264px; */
+  height: 40px;
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 24px;
+}
+.form-btn {
+  display: inline;
+  margin-left: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  background: #4d5ae5;
+  border-radius: 4px;
+  padding: 8px 64px 8px 24px;
+}
+.form-registration {
+}
+.form-btn::after {
+}
+
 /* Portfolio */
 
 .item-list {
