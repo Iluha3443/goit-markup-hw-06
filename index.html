@@ -396,7 +396,7 @@
         </div>
 
         <div class="form-position">
-          <form action="" class="form-table">
+          <form class="form-table">
             <p class="form-heading">Subscribe</p>
             <label for="mail" class="form-search">
               <input
@@ -428,59 +428,71 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="position-rel">
-            <label for="user-name"></label>
+            <label for="user-name" class="modal-name">Name</label>
             <div class="position-input">
               <input
                 type="text"
                 name="user-name"
                 class="modal-input-name"
                 id="user-name"
-                placeholder="Name"
               />
-              <svg class="modal-svg" width="18px" height="18px">
+              <svg class="modal-svg-pic" width="18px" height="18px">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
           </div>
           <div class="position-rel">
-            <label for="user-phone"></label>
+            <label for="user-phone" class="modal-name">Phone</label>
             <div class="position-input">
               <input
                 type="text"
                 name="user-phone"
                 class="modal-input"
-                placeholder="Phone"
                 id="user-phone"
               />
-              <svg class="modal-svg" width="18px" height="24px">
+              <svg class="modal-svg-pic" width="18px" height="24px">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
             </div>
           </div>
           <div class="position-rel">
-            <label for="user-email"></label>
+            <label for="user-email" class="modal-name">Email</label>
             <div class="position-input">
               <input
                 type="text"
                 name="user-email"
                 class="modal-input"
-                placeholder="Email"
                 id="user-email"
               />
-              <svg class="modal-svg" width="18px" height="24px">
+              <svg class="modal-svg-pic" width="18px" height="24px">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </div>
           </div>
-
-          <label for="user-comment"></label>
-          <input
-            type="text"
-            name="user-comment"
-            class="modal-comment"
-            placeholder="Email"
-            id="user-comment"
-          />
+          <div>
+            <div class="position-comment">
+              <label class="user-com" for="user-comment">Comment</label>
+              <textarea
+                name="user-com"
+                id="user-comment"
+                class="modal-commment"
+              >
+Text input</textarea
+              >
+            </div>
+          </div>
+          <div class="modal-slogan">
+            <svg class="modal-pic" width="10px" height="8px">
+              <use href="./images/icons.svg#icon-Click"></use>
+            </svg>
+            <p class="modal-text">
+              I accept the terms and conditions of the
+              <a href="" class="modal-link">Privacy Policy</a>
+            </p>
+          </div>
+          <div class="button-position">
+            <button class="modal-button" type="submit">Send</button>
+          </div>
         </form>
       </div>
     </div>

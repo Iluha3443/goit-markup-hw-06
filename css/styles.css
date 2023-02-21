@@ -695,10 +695,10 @@ button {
   color: #2e2f42;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 34px;
+  margin-bottom: 16px;
 }
 .position-rel {
-  margin-bottom: 26px;
+  margin-bottom: 8px;
 }
 .modal-input {
   width: 100%;
@@ -711,7 +711,7 @@ button {
   letter-spacing: 0.01em;
   color: #8e8f99;
   font-weight: 400;
-  padding-left: 16px;
+  padding-left: 38px;
   outline: transparent;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
@@ -722,7 +722,7 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.modal-input:focus + .modal-svg {
+.modal-input:focus + .modal-svg-pic {
   fill: #4d5ae5;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
@@ -735,14 +735,17 @@ button {
   border-radius: 4px;
   background-color: transparent;
   outline: transparent;
+
+  padding-left: 38px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+.modal-name {
   font-weight: 400;
   font-size: 12px;
   line-height: 0.85;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  padding-left: 32px;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
 }
 .modal-input-name:focus {
   border: 1px solid #4d5ae5;
@@ -750,12 +753,12 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.modal-input-name:focus + .modal-svg {
+.modal-input-name:focus + .modal-svg-pic {
   fill: #4d5ae5;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.modal-svg {
+.modal-svg-pic {
   position: absolute;
   top: 50%;
   left: 16px;
@@ -763,4 +766,81 @@ button {
 }
 .position-input {
   position: relative;
+}
+.position-comment {
+  margin-bottom: 16px;
+}
+.modal-commment {
+  width: 100%;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  background-color: transparent;
+  outline: transparent;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: rgba(117, 117, 117, 0.5);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  resize: none;
+  padding: 16px 8px 16px 8px;
+  color: rgba(117, 117, 117, 0.5);
+}
+.user-com {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.85;
+  letter-spacing: 0.01em;
+  color: #8e8f99;
+}
+.user-phone {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.85;
+  letter-spacing: 0.01em;
+  color: #8e8f99;
+}
+.user-email {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.85;
+  letter-spacing: 0.01em;
+  color: #8e8f99;
+}
+.modal-slogan {
+  display: flex;
+  margin-bottom: 24px;
+}
+.modal-pic {
+  margin-right: 8px;
+}
+.modal-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: #757575;
+}
+.modal-link {
+  color: #4d5ae5;
+  text-decoration: underline;
+}
+.button-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-button {
+  padding: 16px 32px;
+  width: 169px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
