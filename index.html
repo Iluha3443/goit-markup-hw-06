@@ -399,6 +399,7 @@
           <form class="form-table">
             <p class="form-heading">Subscribe</p>
             <label for="mail" class="form-search">
+              <div class="form-posit">
               <input
                 type="email"
                 name="mail"
@@ -409,10 +410,11 @@
             </label>
             <button type="submit" class="form-btn">
               Subscribe
-              <svg>
-                <use></use>
+              <svg class="modal-picture-svg" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-Frame"></use>
               </svg>
             </button>
+            </div>
           </form>
         </div>
       </div>
@@ -481,11 +483,14 @@ Text input</textarea
 
           <div class="modal-slogan">
             <label class="label-checkbox">
-              <input class="checkbox" type="checkbox" />
-              <span class="icon"></span>
-              <p class="modal-text">I accept the terms and conditions of the</p>
+              <input class="checkbox" type="checkbox" name="checkbox" />
 
-              <a href="" class="modal-link">Privacy Policy</a>
+              <span class="icon"></span>
+              <p class="modal-text">
+                I accept the terms and conditions of the
+
+                <a href="" class="modal-link">Privacy Policy</a>
+              </p>
             </label>
           </div>
           <div class="button-position">
