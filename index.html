@@ -429,18 +429,19 @@
         <form class="modal-form">
           <div class="position-rel">
             <label for="user-name" class="modal-name">Name</label>
-            <div class="position-input">
-              <input
-                type="text"
-                name="user-name"
-                class="modal-input-name"
-                id="user-name"
-              />
-              <svg class="modal-svg-pic" width="18px" height="18px">
-                <use href="./images/icons.svg#icon-person-black"></use>
-              </svg>
-            </div>
           </div>
+          <div class="position-input">
+            <input
+              type="text"
+              name="user-name"
+              class="modal-input-name"
+              id="user-name"
+            />
+            <svg class="modal-svg-pic" width="18px" height="18px">
+              <use href="./images/icons.svg#icon-person-black"></use>
+            </svg>
+          </div>
+
           <div class="position-rel">
             <label for="user-phone" class="modal-name">Phone</label>
             <div class="position-input">
@@ -482,13 +483,12 @@ Text input</textarea
             </div>
           </div>
           <div class="modal-slogan">
-            <svg class="modal-pic" width="10px" height="8px">
-              <use href="./images/icons.svg#icon-Click"></use>
-            </svg>
-            <p class="modal-text">
-              I accept the terms and conditions of the
-              <a href="" class="modal-link">Privacy Policy</a>
-            </p>
+            <label class="label-checkbox" for="">
+              <input class="checkbox" type="checkbox" />
+              <span class="icon"></span>
+              <p class="modal-text">I accept the terms and conditions of the</p>
+            </label>
+            <a href="" class="modal-link">Privacy Policy</a>
           </div>
           <div class="button-position">
             <button class="modal-button" type="submit">Send</button>
