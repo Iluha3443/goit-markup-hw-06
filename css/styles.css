@@ -719,7 +719,7 @@ button {
   border-radius: 4px;
   background-color: transparent;
   font-size: 12px;
-  line-height: 0.85;
+  line-height: 1, 1;
   letter-spacing: 0.01em;
   color: #8e8f99;
   font-weight: 400;
@@ -756,7 +756,7 @@ button {
   display: block;
   font-weight: 400;
   font-size: 12px;
-  line-height: 0.85;
+  line-height: 1, 1;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
@@ -793,7 +793,7 @@ button {
   outline: transparent;
   font-weight: 400;
   font-size: 12px;
-  line-height: 0.85;
+  line-height: 1, 1;
   letter-spacing: 0.04em;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
@@ -805,7 +805,7 @@ button {
 .user-com {
   font-weight: 400;
   font-size: 12px;
-  line-height: 0.85;
+  line-height: 1, 1;
   letter-spacing: 0.01em;
   color: #8e8f99;
   display: block;
@@ -814,7 +814,7 @@ button {
 .user-phone {
   font-weight: 400;
   font-size: 12px;
-  line-height: 0.85;
+  line-height: 1, 1;
   letter-spacing: 0.01em;
   color: #8e8f99;
   display: block;
@@ -825,7 +825,7 @@ button {
 .user-email {
   font-weight: 400;
   font-size: 12px;
-  line-height: 0.85;
+  line-height: 1, 1;
   letter-spacing: 0.01em;
   color: #8e8f99;
   display: block;
@@ -840,7 +840,7 @@ button {
 .modal-text {
   font-weight: 400;
   font-size: 12px;
-  line-height: 0.85;
+  line-height: 1, 1;
   letter-spacing: 0.04em;
   color: #757575;
   margin-left: 4px;
@@ -850,7 +850,7 @@ button {
   text-decoration: underline;
   font-weight: 400;
   font-size: 12px;
-  line-height: 0.85;
+  line-height: 1, 1;
   letter-spacing: 0.04em;
 }
 .button-position {
