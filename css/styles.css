@@ -514,7 +514,7 @@ button {
   margin-left: 80px;
 }
 
-.form-search {
+.modal-pos-btn {
   display: flex;
 }
 .modal-picture-svg {
@@ -731,7 +731,7 @@ button {
   outline: transparent;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  margin-top: 4px;
+
   margin-bottom: 8px;
 }
 .modal-input:focus {
@@ -753,7 +753,7 @@ button {
   border-radius: 4px;
   background-color: transparent;
   outline: transparent;
-  margin-top: 4px;
+
   margin-bottom: 8px;
   padding-left: 38px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -762,11 +762,6 @@ button {
 .modal-name {
   position: relative;
   display: block;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.1;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
 }
 .modal-input-name:focus {
   border: 1px solid #4d5ae5;
@@ -784,6 +779,16 @@ button {
   top: 60%;
   left: 19px;
   transform: translateY(-50%);
+}
+.modal-lead {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
+  display: block;
+  position: relative;
 }
 
 .modal-commment {
