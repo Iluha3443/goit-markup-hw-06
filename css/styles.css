@@ -546,6 +546,12 @@ button {
   padding: 8px 64px 8px 24px;
   border: none;
 }
+.form-btn:hover,
+.form-btn:focus {
+  background-color: #404bbf;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
 .form-registration {
   width: 264px;
   height: 40px;
