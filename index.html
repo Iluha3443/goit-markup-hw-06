@@ -399,7 +399,6 @@
           <form class="form-table">
             <p class="form-heading">Subscribe</p>
             <label for="mail" class="form-search">
-              <div class="form-posit">
               <input
                 type="email"
                 name="mail"
@@ -407,14 +406,14 @@
                 placeholder="E-mail"
                 class="form-registration"
               />
+
+              <button type="submit" class="form-btn">
+                Subscribe
+                <svg class="modal-picture-svg" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-Frame"></use>
+                </svg>
+              </button>
             </label>
-            <button type="submit" class="form-btn">
-              Subscribe
-              <svg class="modal-picture-svg" width="24px" height="24px">
-                <use href="./images/icons.svg#icon-Frame"></use>
-              </svg>
-            </button>
-            </div>
           </form>
         </div>
       </div>
@@ -429,10 +428,9 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <div class="position-rel">
-            <label for="user-name" class="modal-name">Name</label>
-          </div>
-          <div class="position-input">
+          <label for="user-name" class="modal-name"
+            >Name
+
             <input
               type="text"
               name="user-name"
@@ -442,12 +440,11 @@
             <svg class="modal-svg-pic" width="18px" height="18px">
               <use href="./images/icons.svg#icon-person-black"></use>
             </svg>
-          </div>
+          </label>
 
-          <div class="position-rel">
-            <label for="user-phone" class="modal-name">Phone</label>
-          </div>
-          <div class="position-input">
+          <label for="user-phone" class="modal-name"
+            >Phone
+
             <input
               type="text"
               name="user-phone"
@@ -457,12 +454,11 @@
             <svg class="modal-svg-pic" width="18px" height="24px">
               <use href="./images/icons.svg#icon-phone-black"></use>
             </svg>
-          </div>
+          </label>
 
-          <div class="position-rel">
-            <label for="user-email" class="modal-name">Email</label>
-          </div>
-          <div class="position-input">
+          <label for="user-email" class="modal-name"
+            >Email
+
             <input
               type="text"
               name="user-email"
@@ -472,30 +468,26 @@
             <svg class="modal-svg-pic" width="18px" height="24px">
               <use href="./images/icons.svg#icon-email-black"></use>
             </svg>
-          </div>
+          </label>
 
-          <div class="position-rel">
-            <label class="user-com" for="user-comment">Comment</label>
-          </div>
+          <label class="user-com" for="user-comment">Comment</label>
+
           <textarea name="user-com" id="user-comment" class="modal-commment">
 Text input</textarea
           >
 
-          <div class="modal-slogan">
-            <label class="label-checkbox">
-              <input class="checkbox" type="checkbox" name="checkbox" />
+          <label class="label-checkbox">
+            <input class="checkbox" type="checkbox" name="checkbox" />
 
-              <span class="icon"></span>
-              <p class="modal-text">
-                I accept the terms and conditions of the
+            <span class="icon"></span>
+            <p class="modal-text">
+              I accept the terms and conditions of the
 
-                <a href="" class="modal-link">Privacy Policy</a>
-              </p>
-            </label>
-          </div>
-          <div class="button-position">
-            <button class="modal-button" type="submit">Send</button>
-          </div>
+              <a href="" class="modal-link">Privacy Policy</a>
+            </p>
+          </label>
+
+          <button class="modal-button" type="submit">Send</button>
         </form>
       </div>
     </div>
